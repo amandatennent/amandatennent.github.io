@@ -17,8 +17,8 @@ title: Amanda Tennent
 email: ''
 description: >- # this means to ignore newlines until "baseurl:"
   A personal blog documenting my learning in tech
-twitter_username: jekyllrb
-github_username: jekyll
+
+google_analytics: true
 
 # Build settings
 markdown: kramdown

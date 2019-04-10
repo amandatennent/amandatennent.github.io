@@ -35,7 +35,7 @@ layout: default
         {%- assign date_format = "%b %-d, %Y" -%}
         {{ post.date | date: date_format }}
       </p>
-        {{ post.excerpt }}
+        {{ post.content | strip_html | truncatewords: 50 }}
     </li>
     {%- endfor -%}
   </ul>
