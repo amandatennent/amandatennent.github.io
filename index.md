@@ -21,7 +21,7 @@ layout: default
     <li class="article mb-4">
       <p class="h5 mb-2">
         <a href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
+          <h3>{{ post.title | escape }}</h3>
         </a>
       </p>
       {% if post.image %}
